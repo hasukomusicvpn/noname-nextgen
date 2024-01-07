@@ -1,0 +1,73 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run sass",
+      "type": "shell",
+      "command": "sass  layout/assets/scss/app.scss  layout/assets/css/app.css --watch"
+    },
+    {
+      "label": "run home",
+      "type": "shell",
+      "command": "pug layout/home.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run detail",
+      "type": "shell",
+      "command": "pug layout/detail.pug --watch --pretty --watch"
+    },
+
+    {
+      "label": "run shop",
+      "type": "shell",
+      "command": "pug layout/shop.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run account",
+      "type": "shell",
+      "command": "pug layout/account.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run blog",
+      "type": "shell",
+      "command": "pug layout/blog.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run cart",
+      "type": "shell",
+      "command": "pug layout/cart.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run checkout",
+      "type": "shell",
+      "command": "pug layout/checkout.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run contact",
+      "type": "shell",
+      "command": "pug layout/contact.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run order",
+      "type": "shell",
+      "command": "pug layout/order.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run signin",
+      "type": "shell",
+      "command": "pug layout/signin.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run signup",
+      "type": "shell",
+      "command": "pug layout/signup.pug --watch --pretty --watch"
+    },
+    {
+      "label": "run dashboard",
+      "type": "shell",
+      "command": "pug layout/dashboard.pug --watch --pretty --watch"
+    }
+  ]
+}
